@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jquery静态项目</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+
+</head>
+<body>
+<!--TODO 总的包裹器-->
+<div id="wrap">
+    <!--TODO 头部区域包裹器-->
+    <header class="header">
+        <div class="headerContent">
+            <!--头部左侧部分-->
+            <div class="logo">
+                <!--logo最核心部分-->
+                <h1>
+                    <img src="./img/logo.png" alt="公司logo">
+                </h1>
+            </div>
+            <!--头部右侧部分-->
+            <div class="nav">
+                <ul>
+                    <li class="active">
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">抽象派</a>
+                    </li>
+                    <li>
+                        <a href="#">人物油画</a>
+                    </li>
+                    <li>
+                        <a href="#">绽放</a>
+                    </li>
+                    <li>
+                        <a href="#">植物景观</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--TODO 内容区-->
+    <div class="content">
+        <!--内容区右侧固定的滚动小圆点-->
+        <ul class="sideNav">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!--内容区整体的滚动内容-->
+        <ul class="contentList">
+            <li class="firstLi" >
+                <!--TODO 第一个li-->
+                <section>
+                    <!--第一个li背景图里面的img图片-->
+                    <div class="first">
+                        <img src="./img/wenzi.png">
+                    </div>
+                </section>
+            </li>
+            <li class="secondLi" >
+                <!--TODO 第二个li-->
+                <section>
+                    <!--第二个li背景图里面的img图片-->
+                    <div class="second">
+                        <div class="left">
+                            <ul class="photoList">
+                                <li>
+                                    <img src="img/img1.png" alt="">
+                                    <p>望<br>30*40cm / 40*50cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li>
+                                    <img src="img/img2.png" alt="">
+                                    <p>听<br>30*40cm / 40*50cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li>
+                                    <img src="img/img3.png" alt="">
+                                    <p>悟<br>30*40cm / 40*50cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <h1>观止</h1>
+                            <p>价格：99元起<br>艺术家：吉祥物语</p>
+                            <a href="www.baidu.com">酷站主页</a>
+                        </div>
+                        <div class="bg">
+                            <img src="./img/sc2.png">
+                        </div>
+                    </div>
+                    <div></div>
+                </section>
+            </li>
+            <li class="thirdLi" >
+                <section>
+                    <div class="third">
+                        <div class="left">
+                            <ul class="photoList">
+                                <li>
+                                    <img src="img/img4.png" alt="">
+                                    <p>Love<br>50*60cm</p><a href="javacripts:;"></a>
+                                </li>
+                                <li style="transform: translateX(0px);">
+                                    <img src="img/img5.png" alt="">
+                                    <p>Filial and eros aw<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li style="transform: translateX(0px);">
+                                    <img src="img/img6.png" alt="">
+                                    <p>Good Time<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right" style="transform: translateX(0px);"><h1>KIDS</h1>
+                            <p>价格：249元<br>艺术家：Chow-Lee</p><a href="www.baidu.com">酷站主页</a></div>
+                        <div class="bg"><img src="img/sc3.png"></div>
+                    </div>
+                </section>
+            </li>
+            <li class="fourLi" >
+                <section>
+                    <div class="four">
+                        <div class="left">
+                            <ul class="photoList">
+                                <li>
+                                    <img src="./img/img7.png" alt="">
+                                    <p>Love<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li>
+                                    <img src="img/img8.png" alt="">
+                                    <p>Filial and eros aw<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li>
+                                    <img src="img/img9.png" alt="">
+                                    <p>Good Time<br>50*60cm</p>
+                                    <a href="javacripts:;"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right" style="opacity: 1;"><h1>绽放</h1>
+                            <p>价格：269元<br>艺术家：北邦</p>
+                            <a href="www.baidu.com">酷站主页</a>
+                        </div>
+                        <div class="bg">
+                            <img src="./img/sc4.png"></div>
+                    </div>
+                </section>
+            </li>
+            <li class="fiveLi" >
+                <section>
+                    <div class="five">
+                        <div class="left">
+                            <ul class="photoList">
+                                <li>
+                                    <img src="img/img10.png" alt="">
+                                    <p>栖息<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li >
+                                    <img src="img/img11.png" alt="">
+                                    <p>惊蛰<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                                <li id="last">
+                                    <img src="img/img12.png" alt="">
+                                    <p>恬静<br>50*60cm</p>
+                                    <a href="javacripts:;"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right" style="opacity: 1;"><h1>沉睡的森林</h1>
+                            <p>价格：249元<br>艺术家：赵娜</p><a href="www.baidu.com">酷站主页</a></div>
+                        <div class="bg"><img src="img/sc5.png"></div>
+                    </div>
+                </section>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
